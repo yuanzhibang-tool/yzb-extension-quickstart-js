@@ -1,0 +1,18 @@
+{
+  "name": "yzb-extension-test",
+  "version": "1.0.0",
+  "description": "用以演示extension拓展开发的用法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.david-health.cn/yuanzhibang/yzb-extension-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yuanzhibang/node": "^0.0.6"
+  }
+}
