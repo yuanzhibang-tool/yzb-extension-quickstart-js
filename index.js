@@ -56,6 +56,7 @@ p.on('message', (message) => {
                             if (nextCallbackMap.has(messageIdentity)) {
                                 const data = message.data;
                                 nextCallbackMap.get(messageIdentity)(data);
+                                nextCallbackMap.delete(messageIdentity);
                             }
                         }
                         break;
@@ -75,6 +76,7 @@ p.on('message', (message) => {
                             if (errorCallbackMap.has(messageIdentity)) {
                                 const data = message.data;
                                 errorCallbackMap.get(messageIdentity)(data);
+                                nextCallbackMap.delete(messageIdentity);
                             }
                         }
                         break;
