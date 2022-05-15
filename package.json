@@ -16,6 +16,7 @@
     "@yuanzhibang/node": "^0.0.17"
   },
   "devDependencies": {
-    "@yuanzhibang/extension-debugger": "^0.0.3"
+    "@yuanzhibang/extension-debugger": "^0.0.3",
+    "ts-lint": "^4.5.1"
   }
 }
