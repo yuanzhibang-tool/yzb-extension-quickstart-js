@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.17",
-    "server": "^1.0.37"
+    "@yuanzhibang/node": "^0.0.17"
+  },
+  "devDependencies": {
+    "@yuanzhibang/extension-debugger": "^0.0.3"
   }
 }
