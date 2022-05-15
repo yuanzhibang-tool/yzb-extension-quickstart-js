@@ -55,7 +55,12 @@ p.on('message', (message) => {
                             echoMessageDeliver();
                             if (nextCallbackMap.has(messageIdentity)) {
                                 const data = message.data;
-                                nextCallbackMap.get(messageIdentity)(data);
+                                const callback = nextCallbackMap.get(messageIdentity);
+                                if (!callback) {
+                                    nextCallbackMap.delete(messageIdentity);
+                                    return;
+                                }
+                                callback(data);
                                 nextCallbackMap.delete(messageIdentity);
                             }
                         }
@@ -75,8 +80,13 @@ p.on('message', (message) => {
                             echoMessageDeliver();
                             if (errorCallbackMap.has(messageIdentity)) {
                                 const data = message.data;
-                                errorCallbackMap.get(messageIdentity)(data);
-                                nextCallbackMap.delete(messageIdentity);
+                                const callback = errorCallbackMap.get(messageIdentity);
+                                if (!callback) {
+                                    errorCallbackMap.delete(messageIdentity);
+                                    return;
+                                }
+                                callback(data);
+                                errorCallbackMap.delete(messageIdentity);
                             }
                         }
                         break;
