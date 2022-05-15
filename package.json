@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "用以演示extension拓展开发的用法",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.17"
+    "@yuanzhibang/node": "^0.0.17",
+    "server": "^1.0.37"
   }
 }
