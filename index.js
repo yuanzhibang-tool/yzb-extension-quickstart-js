@@ -46,7 +46,7 @@ p.on('message', (message) => {
                             echoMessageTypeTitle('Next/Then callback to renderer');
                             echoMessageInfoTitle("message info below");
                             const consoleData = {
-                                "type": 'next',
+                                "type": 'next/then',
                                 "identity": messageIdentity,
                             };
                             console.table(consoleData);
