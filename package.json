@@ -1,14 +1,14 @@
 {
-  "name": "yzb-extension-test",
+  "name": "yzb-extension-demo-js",
   "version": "1.0.0",
-  "description": "用以演示extension拓展开发的用法",
+  "description": "猿之棒拓展演示，本仓库为js语言",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.david-health.cn/yuanzhibang/yzb-extension-test.git"
+    "url": "https://github.com/yuanzhibang-tool/yzb-extension-demo-js.git"
   },
   "author": "yuanzhibang.com",
   "license": "MIT",
