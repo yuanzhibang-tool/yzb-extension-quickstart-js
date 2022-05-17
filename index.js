@@ -1,6 +1,9 @@
 const { extensionDebugger, DebuggerLogger } = require("@yuanzhibang/extension-debugger");
+// 开启日志，设置false为关闭
 DebuggerLogger.withLog = true;
+// 启动调试网络服务，端口号为8080
 extensionDebugger.startServer(8080);
+// 启动开发的拓展
 extensionDebugger.runExtension('./test-extension.js');
 
 // 手动发送topic消息
