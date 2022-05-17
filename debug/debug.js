@@ -4,7 +4,7 @@ DebuggerLogger.withLog = true;
 // 启动调试网络服务，端口号为8080
 extensionDebugger.startServer(8080);
 // 启动开发的拓展
-extensionDebugger.runExtension('./index.js');
+extensionDebugger.runExtension('./src/index.js');
 
 // 手动发送topic消息
 extensionDebugger.sendPromise('test-node-process-messsage-topic', { k1: 'v1' })

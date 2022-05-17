@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Debug Extension",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/debug.js"
+      "program": "${workspaceFolder}/debug/debug.js"
     },
     {
       "name": "Debug Jest Tests",
