@@ -1,7 +1,7 @@
 {
   "name": "yzb-extension-demo-js",
   "version": "1.0.0",
-  "description": "猿之棒拓展演示,本仓库为js语言",
+  "description": "猿之棒拓展开发演示,本仓库为js语言",
   "main": "index.js",
   "scripts": {
     "test": "jest"
