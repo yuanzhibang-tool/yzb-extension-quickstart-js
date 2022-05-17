@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://gitlab.david-health.cn/yuanzhibang/yzb-extension-test.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "yuanzhibang.com",
+  "license": "MIT",
   "dependencies": {
     "@yuanzhibang/node": "^0.0.23"
   },
