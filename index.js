@@ -12,3 +12,9 @@ ipc.on('test-node-process-messsage-topic', (sender, message) => {
     // sender.next(message);
     sender.error(message);
 });
+
+function sum(a, b) {
+    return a + b;
+}
+
+module.exports = sum;

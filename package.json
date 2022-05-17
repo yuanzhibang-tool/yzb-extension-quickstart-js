@@ -4,7 +4,7 @@
   "description": "猿之棒拓展演示，本仓库为js语言",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@yuanzhibang/extension-debugger": "^0.0.19",
+    "jest": "^28.1.0",
     "ts-lint": "^4.5.1"
   }
 }
