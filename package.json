@@ -16,7 +16,7 @@
     "@yuanzhibang/node": "^0.0.23"
   },
   "devDependencies": {
-    "@yuanzhibang/extension-debugger": "^0.0.20",
+    "@yuanzhibang/extension-debugger": "^0.0.22",
     "jest": "^28.1.0",
     "ts-lint": "^4.5.1"
   }
