@@ -13,10 +13,10 @@
   "author": "yuanzhibang.com",
   "license": "MIT",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.23"
+    "@yuanzhibang/node": "^0.0.28"
   },
   "devDependencies": {
-    "@yuanzhibang/extension-debugger": "^0.0.28",
+    "@yuanzhibang/extension-debugger": "^0.0.30",
     "jest": "^28.1.0",
     "ts-lint": "^4.5.1"
   }
