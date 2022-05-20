@@ -13,7 +13,7 @@
   "author": "yuanzhibang.com",
   "license": "MIT",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.28"
+    "@yuanzhibang/node": "^0.0.29"
   },
   "devDependencies": {
     "@yuanzhibang/extension-debugger": "^0.0.30",
