@@ -1,5 +1,5 @@
 {
-  "name": "yzb-extension-demo-js",
+  "name": "yzb-extension-quickstart-js",
   "version": "1.0.0",
   "description": "猿之棒拓展开发演示,本仓库为js语言",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuanzhibang-tool/yzb-extension-demo-js.git"
+    "url": "https://github.com/yuanzhibang-tool/yzb-extension-quickstart-js.git"
   },
   "author": "yuanzhibang.com",
   "license": "MIT",
