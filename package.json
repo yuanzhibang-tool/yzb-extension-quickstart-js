@@ -14,7 +14,7 @@
     "url": "https://github.com/yuanzhibang-tool/yzb-extension-quickstart-js.git"
   },
   "author": "yuanzhibang.com",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "@yuanzhibang/node": "^0.0.38"
   },
