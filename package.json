@@ -4,10 +4,9 @@
   "description": "猿之棒拓展开发演示,本仓库为js语言",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "create-tag": "node ./script/create-tag.js",
+    "test": "jest --runInBand --env=node --colors --coverage test",
     "preextension-package": "yzb-create-tag",
-    "extension-package": "node ./script/extension-package.js"
+    "extension-package": "yzb-pack-ext"
   },
   "repository": {
     "type": "git",
