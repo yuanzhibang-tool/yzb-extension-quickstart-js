@@ -7,7 +7,7 @@
     "test": "jest --runInBand --env=node --colors --coverage test",
     "preextension-package": "yzb-create-tag && yzb-dist-js",
     "extension-package": "yzb-pack-ext",
-    "postextension-package": "yzb-merge-main"
+    "merge-main": "yzb-merge-main"
   },
   "repository": {
     "type": "git",
