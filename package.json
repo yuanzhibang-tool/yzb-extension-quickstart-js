@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand --env=node --colors --coverage test",
-    "preextension-package": "yzb-create-tag",
+    "preextension-package": "yzb-create-tag && yzb-dist-js",
     "extension-package": "yzb-pack-ext",
-    "merge-main": "yzb-merge-main"
+    "postextension-package": "yzb-merge-main"
   },
   "repository": {
     "type": "git",
