@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --runInBand --env=node --colors --coverage test",
     "preextension-package": "yzb-create-tag",
-    "extension-package": "yzb-pack-ext"
+    "extension-package": "yzb-pack-ext",
+    "merge-main": "yzb-merge-main"
   },
   "repository": {
     "type": "git",
