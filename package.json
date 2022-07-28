@@ -16,11 +16,11 @@
   "author": "yuanzhibang.com",
   "license": "Apache License 2.0",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.38"
+    "@yuanzhibang/node": "^0.0.44"
   },
   "devDependencies": {
-    "@yuanzhibang/cli": "^0.0.14",
-    "@yuanzhibang/extension-debugger": "^0.0.30",
+    "@yuanzhibang/cli": "^0.0.15",
+    "@yuanzhibang/extension-debugger": "^0.0.34",
     "archiver": "^5.3.1",
     "fs-extra": "^10.1.0",
     "jest": "^28.1.0",
