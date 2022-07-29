@@ -29,3 +29,7 @@ extensionDebugger.setRendererOtherMessageCallback((message) => {
     console.log(message);
 });
 
+// !与前端联合调试请将上方代码注释,启动ws调试服务
+
+// extensionDebugger.startWsServer(8889);
+// extensionDebugger.setExtensionPath("./src/index.js");
