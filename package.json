@@ -16,10 +16,10 @@
   "author": "yuanzhibang.com",
   "license": "Apache License 2.0",
   "dependencies": {
-    "@yuanzhibang/node": "^0.0.44"
+    "@yuanzhibang/node": "^0.0.45"
   },
   "devDependencies": {
-    "@yuanzhibang/cli": "^0.0.15",
+    "@yuanzhibang/cli": "^0.0.19",
     "@yuanzhibang/extension-debugger": "^0.0.38",
     "archiver": "^5.3.1",
     "fs-extra": "^10.1.0",
